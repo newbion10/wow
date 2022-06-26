@@ -111,7 +111,7 @@ class SUtil
 		File.saveContent(path, errMsg + "\n");
 		#end
 
-		Sys.println(errMsg)
+		Sys.println(errMsg);
 
 		Application.current.window.alert(errMsg, "Error!");
 		Sys.exit(1);
